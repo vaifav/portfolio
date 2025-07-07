@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-mybg: #121212;
+  --color-primary: #715ea0;
+  --breakpoint-csm: 500px;
+  --breakpoint-cmd: 600px;
+  --breakpoint-cmd2: 640px; 
+  --breakpoint-clg: 900px;
+  --breakpoint-c2xl: 1600px;
+}
+
+@layer components {
+  .wrapper {
+    @apply w-full h-fit;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+}

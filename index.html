@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="script/script.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body class="bg-mybg w-full">
+
+    <section class="wrapper pt-[2rem]">
+        <header
+            class="mx-auto w-fit h-fit py-[1rem] px-[2rem] rounded-full flex items-center justify-center gap-[1rem] bg-[#2b2b2c] csm:gap-[2rem] csm:px-[3rem]">
+            <a href="#">
+                <h1 class="text-[white]">Vaifav</h1>
+            </a>
+            <a href="#education">
+                <h1 class="text-primary">education</h1>
+            </a>
+            <a href="#connect">
+                <h1 class="text-primary">connect</h1>
+            </a>
+            <a href="#skills">
+                <h1 class="text-primary">skills</h1>
+            </a>
+        </header>
+    </section>
+
+    <section id="home"
+        class="w-full mx-auto px-2.5 py-[3rem] h-fit csm:w-[80%] lg:flex lg:justify-center lg:items-center lg:gap-[3rem] lg:h-[80vh]">
+        <div class="w-full flex flex-col items-center justify-center gap-[2rem] lg:w-[40%] lg:items-start">
+            <h1 class="text-4xl text-white text-center 2xl:text-5xl">
+                Hi, I'm <b class="text-primary">Vaifav</b>
+            </h1>
+            <p class="text-zinc-400 font-light text-center leading-[1.7rem] lg:text-left 2xl:leading-[2.2rem]">
+                I am a higher secondary graduate in
+                <b class="text-primary">Computer Science</b> from
+                <b class="text-primary">Al-Uthuman EMHSS</b>.
+                During my studies I developed a strong intrest in programming and problem solving skills. Now I am in
+                <b class="text-primary">Brototype</b>
+                to improve my skills and to get a high salary Job
+            </p>
+            <div class="w-full flex justify-center gap-[1rem] lg:justify-start">
+                <button type="button"
+                    class="bg-white flex items-center justify-center text-mybg rounded-full px-[1.5rem] py-[0.5rem]">
+                    <a class="2xl:text-xl " href="#education">education</a>
+                </button>
+                <button type="button" class="border border-white text-white rounded-full px-[1.5rem] py-[0.5rem]">
+                    <a class="2xl:text-xl" href="#connect">connect</a>
+                </button>
+            </div>
+        </div>
+        <div class="grow-0 w-[30%] h-[60vh] hidden lg:block">
+            <img class="w-full h-full object-cover object-[40%_20%] rounded-2xl" src="images/myImage.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="about" class="p-[3rem]">
+        <div>
+           <h1 class="text-4xl text-white text-center 2xl:text-5xl">
+                About
+            </h1>
+            <div class="flex flex-col justify-center items-center w-[100%] mx-auto text-white pt-[3rem] gap-[2rem] cmd:flex-row cmd:gap-[6rem] cmd2:text-xl md:gap-[10rem]">
+                <ul class="flex flex-col gap-[2rem]">
+                    <li class="text-zinc-400"><b class="text-primary font-bold">&raquo; BirthDay: </b> &nbsp;05 dec 2006 </li>
+                    <li class="text-zinc-400"><b class="text-primary font-bold">&raquo; Website: </b> &nbsp;www.vaifav.com</li>
+                    <li class="text-zinc-400"><b class="text-primary font-bold">&raquo; Phone: </b>&nbsp;7558891343</li>
+                    <li class="text-zinc-400"><b class="text-primary font-bold">&raquo; City: </b>&nbsp;Kadinakulam - TVM</li>
+                </ul>
+                <ul class="flex flex-col gap-[2rem]">
+                    <li class="text-zinc-400"><b class="text-primary font-bold">&raquo; Age: </b> &nbsp;18</li>
+                    <li class="text-zinc-400"><b class="text-primary font-bold">&raquo; Education: </b> &nbsp;Plus Two CS</li>
+                    <li class="text-zinc-400"><b class="text-primary font-bold">&raquo; Email: </b> &nbsp;vaifav06@gmail.com</li>
+                    <li class="text-zinc-400"><b class="text-primary font-bold">&raquo; Domain: </b> &nbsp;MERN</li>
+                </ul>
+            </div> 
+        </div>
+    </section>
+
+    <section id="skills" class="w-full py-[3rem]">
+        <h1 class="text-center text-4xl text-white 2xl:text-5xl">Skills</h1>
+        <div class="flex gap-[2rem] overflow-x-scroll no-scrollbar w-[90%] mx-auto p-[2rem] c2xl:justify-center ">
+
+            <article
+                class="h-[400px] w-[300px] shrink-[0] justify-center bg-linear-[135deg,#4b3a6a_0%,#2e1f47_50%,#121212_100%] rounded-3xl p-[1rem] flex flex-col gap-[1rem] transition-all hover:outline outline-primary">
+                <div><img src="images/icons8-c-programming.svg" alt="cLang"></div>
+                <h1 class="font-semibold text-white">C Language</h1>
+                <p class="text-white font-light leading-[1.8rem]">
+                    I learned the basics of C Language in my foundation period.
+                    And solved many patterns and array problem.
+                </p>
+                <button class="border border-white text-white rounded-full px-[1.5rem] py-[0.5rem]"><a href="#">What I
+                        learned ?</a></button>
+            </article>
+            <article
+                class="h-[400px] w-[300px] shrink-[0] justify-center bg-linear-[135deg,#4b3a6a_0%,#2e1f47_50%,#121212_100%] rounded-3xl p-[1rem] flex flex-col gap-[1rem] hover:outline outline-primary">
+                <div><img src="images/icons8-java.svg" alt="cLang"></div>
+                <h1 class="font-semibold text-white">Java</h1>
+                <p class="text-white font-light leading-[1.8rem]">
+                    I learned the basics of Java and OOPs concepts in my foundation period.
+                    And have a good knowledge in OOPs concepts.
+                </p>
+                <button class="border border-white text-white rounded-full px-[1.5rem] py-[0.5rem]"><a href="#">What I
+                        learned ?</a></button>
+            </article>
+            <article
+                class="h-[400px] w-[300px] shrink-[0] justify-center bg-linear-[135deg,#4b3a6a_0%,#2e1f47_50%,#121212_100%] rounded-3xl p-[1rem] flex flex-col gap-[1rem] hover:outline outline-primary">
+                <div><img src="images/icons8-html5.svg" alt="cLang"></div>
+                <h1 class="font-semibold text-white">HTML</h1>
+                <p class="text-white font-light leading-[1.8rem]">
+                    I learned the basics of HTML5 and also currently working with it.Semantic tags like section, header
+                    and footer are really useful.
+                </p>
+                <button class="border border-white text-white rounded-full px-[1.5rem] py-[0.5rem]"><a href="#">What I
+                        learned ?</a></button>
+            </article>
+            <article
+                class="h-[400px] w-[300px] shrink-[0] justify-center bg-linear-[135deg,#4b3a6a_0%,#2e1f47_50%,#121212_100%] rounded-3xl p-[1rem] flex flex-col gap-[1rem] hover:outline outline-primary">
+                <div><img src="images/icons8-css3.svg" alt="cLang"></div>
+                <h1 class="font-semibold text-white">CSS</h1>
+                <p class="text-white font-light leading-[1.8rem]">
+                    I learned the basics of CSS3 and also currently working with it.
+                    And have good knowledge in tailwind and bootstrap.
+                </p>
+                <button class="border border-white text-white rounded-full px-[1.5rem] py-[0.5rem]"><a href="#">What I
+                        learned ?</a></button>
+            </article>
+            <article
+                class="h-[400px] w-[300px] shrink-[0] justify-center bg-linear-[135deg,#4b3a6a_0%,#2e1f47_50%,#121212_100%] rounded-3xl p-[1rem] flex flex-col gap-[1rem] hover:outline outline-primary">
+                <div><img src="images/icons8-js.svg" alt="cLang"></div>
+                <h1 class="font-semibold text-white">JavaScript</h1>
+                <p class="text-white font-light leading-[1.8rem]">
+                    I learned the basics of JS and also currently working with it.
+                    And have good knowledge in DOM manupulation.
+                </p>
+                <button class="border border-white text-white rounded-full px-[1.5rem] py-[0.5rem]"><a href="#">What I
+                        learned ?</a></button>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="projects"
+        class="px-2.5 py-[3rem] mx-auto csm:w-[80%] clg:w-[60%] lg:flex lg:w-full lg:h-[80vh] lg:justify-center lg:items-center lg:gap-[3rem]">
+        <div class="lg:w-[40%] 2xl:w-[30%]">
+            <h1 class="text-4xl text-white text-center lg:text-left 2xl:text-5xl">Projects</h1>
+            <p class="text-zinc-400 font-light text-center leading-[1.7rem] mt-8 lg:text-left 2xl:leading-[2.2rem]">
+                I built a cloned version
+                of the
+                official
+                site of
+                <b class="text-primary">Bugatti</b>,
+                <b class="text-primary">Netflix</b> and
+                <b class="text-primary">YouTube</b>.
+                YouTube is fully responsive. I built all using plain HTML, CSS and JS
+            </p>
+            <h3 class="text-primary mt-4 text-center lg:text-left 2xl:text-xl">
+                <a href="https://github.com/vaifav/" target="_blank" class="underline">Learn More</a>
+            </h3>
+        </div>
+        <div class="grow-0 w-[40%] hidden lg:block">
+            <img class="w-full h-full object-cover rounded-2xl" src="images/project.png" alt="">
+        </div>
+    </section>
+
+    <section id="education"
+        class="px-2.5 py-[3rem] mx-auto csm:w-[80%] clg:w-[60%] lg:flex lg:w-full lg:h-[80vh] lg:justify-center lg:items-center lg:gap-[3rem]">
+        <div class="grow-0 w-[40%] hidden lg:block">
+            <img class="w-full h-full object-cover rounded-2xl" src="images/education.png" alt="">
+        </div>
+        <div class="lg:w-[40%]">
+            <h1 class="text-4xl text-white text-center lg:text-left 2xl:text-5xl">Education</h1>
+            <p class="text-zinc-400 font-light text-center leading-[1.7rem] mt-8 lg:text-left 2xl:leading-[2.2rem]">
+                I complete my higher secondary graduatuation in
+                <b class="text-primary">Computer Science</b> from
+                <b class="text-primary">Al-Uthuman EMHSS</b> and scored
+                <b class="text-primary">97.4%</b> in my final exams.
+                During my studies I developed a strong intrest in programming and problem solving skills.Now I am in
+                <b class="text-primary">Brototype</b> to improve my skills and to get a high salary Job
+            </p>
+            <h3 class="text-primary mt-4 text-center lg:text-left 2xl:text-xl">
+                <a href="https://targetstudy.com/school/56427/al-uthuman-english-medium-higher-secondary-school/"
+                    target="_blank" class="underline">Learn More</a>
+            </h3>
+        </div>
+    </section>
+
+    <section id="connect" class="px-2.5 py-[3rem] mx-auto csm:w-[80%] clg:w-[50%] 2xl:w-[30%]">
+        <h1 class="text-4xl text-white text-center 2xl:text-5xl">Let's connect</h1>
+        <form action="" class="flex flex-col w-full items-center justify-center px-[1rem]">
+            <input class="focus:outline-none border border-white w-full py-[1rem] mt-8 rounded-2xl text-white pl-4"
+                type="text" name="userName" id="userName" placeholder="Name">
+            <p id="nameError" class="invisible text-red-600 font-light my-2 text-left w-full">Error</p>
+
+            <input class="focus:outline-none border border-white w-full py-[1rem] rounded-2xl text-white pl-4"
+                type="email" name="yourEmail" id="yourEmail" placeholder="Email">
+            <p id="emailError" class="invisible text-red-600 font-light my-2 text-left w-full">Error</p>
+            <input class="w-full py-[1rem] rounded-2xl text-white bg-[#371b7b]" type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer class="bg-[#17171b] py-[2rem] mt-[2rem]">
+        <div class="mx-auto w-[90%] flex flex-col justify-center items-center gap-[1.5rem]">
+            <h1 class="text-xl text-white clg:text-2xl">
+                Vaifav | Full stack developer
+            </h1>
+            <nav class="flex gap-[0.5rem] clg:gap-[2rem]">
+                <a class="text-white hover:text-primary" href="#home">Home</a>
+                <a class="text-white hover:text-primary" href="#about">About</a>
+                <a class="text-white hover:text-primary" href="#connect">Connect</a>
+                <a class="text-white hover:text-primary" href="https://github.com/vaifav/" target="_blank">Github</a>
+            </nav>
+            <p class="text-[white] font-light text-center leading-[1.7rem]">Based in India | hello@example.com</p>
+            <p class="text-zinc-400 font-light text-center leading-[1.7rem]"><i>Crafting code with care.</i></p>
+        </div>
+    </footer>
+</body>
+
+</html>
